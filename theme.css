@@ -1,0 +1,10 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fff;
+  color: #111;
+}
+.hero-banner {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f4f0ec;
+}

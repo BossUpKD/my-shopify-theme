@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page_title }}</title>
+    {{ content_for_header }}
+    <link href="{{ 'theme.css' | asset_url }}" rel="stylesheet">
+    <script src="{{ 'theme.js' | asset_url }}"></script>
+  </head>
+  <body>
+    {% section 'hero-banner' %}
+    {{ content_for_layout }}
+  </body>
+</html>
